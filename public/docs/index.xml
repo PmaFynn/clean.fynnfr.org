@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on Fynn webpage</title>
+    <title>Docs on ff</title>
     <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Docs on Fynn webpage</description>
+    <description>Recent content in Docs on ff</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Sep 2024 16:40:22 +0200</lastBuildDate>
