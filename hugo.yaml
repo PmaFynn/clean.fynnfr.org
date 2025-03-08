@@ -1,4 +1,40 @@
 baseURL: "http://fynnfr.org/"
 languageCode: "en-us"
-title: "ff"
+title: "Fynn Friedrichs"
 theme: "clean"
+params:
+  index:
+    label: "ff"
+    title: Hi
+    subtitle: "I'm Fynn. Welcome to my little corner of the internet!"
+    imageUrl: "home/meButNice.png"
+  social:
+    - name: email
+      url: "mailto:fynn@fynnfr.org"
+    - name: github
+      url: "https://github.com/pmafynn"
+    - name: linkedin
+      url: "https://linkedin.com/in/fynnfr"
+    - name: steam
+      url: "https://steamcommunity.com/profiles/76561198223632584/"
+    - name: cv
+      url: "https://cv.fynnfr.org"
+    - name: recommendations
+      url: "https://raindrop.io/PmaFynn/recommendations-52141052"
+    - name: my worse looking page
+      url: "https://fynnfr.org"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /tags/projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
