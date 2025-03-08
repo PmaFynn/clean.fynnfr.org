@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Fynn webpage</title>
+    <link>http://localhost:1313/tags/rust/</link>
+    <description>Recent content in Rust on Fynn webpage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Oct 2024 14:28:59 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>td</title>
+      <link>http://localhost:1313/blog/td/</link>
+      <pubDate>Sun, 13 Oct 2024 14:28:59 +0200</pubDate>
+      <guid>http://localhost:1313/blog/td/</guid>
+      <description>&lt;h2 id=&#34;edit-26022025&#34;&gt;Edit: 26.02.2025:&lt;/h2&gt;&#xA;&lt;p&gt;I have recently discovered &lt;a href=&#34;https://github.com/lfos/calcurse&#34;&gt;calcurse&lt;/a&gt;, a&#xA;&lt;em&gt;text-based calendar and scheduling application&lt;/em&gt;, while searching for—you may&#xA;have guessed it—a text-based calendar and scheduling application. The&#xA;application also includes a feature to track todos. Naturally, this interested&#xA;me, as it is also a TUI (Text User Interface). However, as you will see below,&#xA;one of the essential features I was looking for in a todo application was the&#xA;ability to quickly insert tasks/todos directly from the terminal. Given that&#xA;calcurse offers a plethora of features, I was optimistic that this&#xA;functionality would be included. Unfortunately, I was wrong&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. What a bummer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL: "http://fynnfr.org/"
+languageCode: "en-us"
+title: "Fynn webpage"
+theme: "clean"

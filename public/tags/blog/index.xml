@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Fynn webpage</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Fynn webpage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2025 20:23:13 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work in progress</title>
+      <link>http://localhost:1313/blog/bookmarks/</link>
+      <pubDate>Fri, 07 Feb 2025 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/bookmarks/</guid>
+      <description>&lt;p&gt;I employ two distinct ways of managing my bookmarks.&#xA;The first is reserved for my essential/active/frequent (or whatever one might&#xA;call these) bookmarks and the second is used for&amp;ndash;well, you may guess.&#xA;Lets start with the first class.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-i-use-my-essential-bookmarks&#34;&gt;How I use my essential bookmarks&lt;/h2&gt;&#xA;&lt;p&gt;This method is rather primitive but works exceptionally well. You just keep&#xA;your bookmarks (i.e. links) in a plain textfile. However, without the second&#xA;component, ingredient you could say, you might, as I expect, be&#xA;rather distrustful regarding the benefits of such a method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I am using RSS and you should too</title>
+      <link>http://localhost:1313/blog/rss/</link>
+      <pubDate>Thu, 16 Jan 2025 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/rss/</guid>
+      <description>&lt;p&gt;What a title huh? I figured that is how one starts a blog post. Get the readers attention etc. etc.&lt;/p&gt;&#xA;&lt;p&gt;I am assuming you have no clue what RSS is. If you do; &lt;a href=&#34;https://fynnfr.org/blog/index.xml&#34;&gt;here is my feed!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you do not, here is a small intro:&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-rss-really-simple-syndication&#34;&gt;What is RSS (Really Simple Syndication)?&lt;/h2&gt;&#xA;&lt;p&gt;RSS (Really Simple Syndication) is a user-controlled way to follow online content, fundamentally different from modern social media platforms and email newsletters. Think of it as a decentralized news feed without ads, algorithmic manipulation, or corporate control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A month without wifi</title>
+      <link>http://localhost:1313/blog/nowifi/</link>
+      <pubDate>Wed, 04 Dec 2024 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/nowifi/</guid>
+      <description>&lt;p&gt;What I dreaded as a teenager has become my daily life for the past month.&lt;/p&gt;&#xA;&lt;p&gt;What started as a broken wifi router has become the longest period since I can&#xA;remember without access to wifi (at least @home). As I regulary want to decrese my&#xA;time spent on the internet this might be what I needed to finally reach a new&#xA;milestone&amp;ndash;is what I thought in the beginning. However, I can now, unfortunatly say that the opposite has occured. I can still use my regular phone data to use&#xA;the internet and moreover, I have to start a hotspot when using my laptop&#xA;(incl. work laptop) to study for university for example. Furthermore, I can not&#xA;use my desktop pc at all since it has no WLAN adapter built in, I can only access the&#xA;web using LAN which never posed a problem&amp;ndash;until now; hard to use LAN from a&#xA;hotspot. The only place I used some social media was on this stationary pc. My&#xA;habit was physically split from the rest of my daily routine which worked quite&#xA;well. Without access to it the need for some kind of information/news/something&#xA;(I can not even download my music like I was used to and have subsequently now&#xA;subscribed to my first digital subscription service in quite a long time (apple&#xA;music) which also sucks) built up and finally found its relief in reddit on my&#xA;phones browser&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

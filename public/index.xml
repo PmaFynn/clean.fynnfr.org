@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Fynn webpage</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Fynn webpage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Mar 2025 15:58:43 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 08 Mar 2025 15:58:43 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Fynn.&lt;/p&gt;&#xA;&lt;p&gt;My interests are software (i.e. FOSS), literature and, at least currently, western esotericism.&lt;/p&gt;&#xA;&lt;p&gt;Why am I writing this in english you may ask. Well, I just prefer english. I think it is a more fine and musical language. That is all there is to it.&lt;/p&gt;&#xA;&lt;p&gt;I have no clue what else to put here. Though, I can recommend some software.&lt;/p&gt;&#xA;&lt;h3 id=&#34;software-i-use-and-recommend&#34;&gt;Software I use &lt;em&gt;and&lt;/em&gt; recommend:&lt;/h3&gt;&#xA;&lt;p&gt;For my operating system, I rely on &lt;a href=&#34;https://archlinux.org/&#34;&gt;Arch Linux&lt;/a&gt;,&#xA;paired with &lt;a href=&#34;https://zsh.sourceforge.io/&#34;&gt;Zsh&lt;/a&gt; as my shell, enhanced by&#xA;&lt;a href=&#34;https://github.com/ohmyzsh/ohmyzsh&#34;&gt;&lt;em&gt;oh my zsh&lt;/em&gt;&lt;/a&gt;. My terminal of choice&#xA;is &lt;a href=&#34;https://ghostty.org/&#34;&gt;Ghostty&lt;/a&gt;.&#xA;For web browsing, I use&#xA;&lt;a href=&#34;https://floorp.app/en&#34;&gt;Floorp&lt;/a&gt; and, as far as it is possible right now, &lt;a href=&#34;https://ladybird.org&#34;&gt;Ladybird&lt;/a&gt; with&#xA;&lt;a href=&#34;https://kagi.com/&#34;&gt;Kagi&lt;/a&gt; as my preferred search engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Work in progress</title>
+      <link>http://localhost:1313/blog/bookmarks/</link>
+      <pubDate>Fri, 07 Feb 2025 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/bookmarks/</guid>
+      <description>&lt;p&gt;I employ two distinct ways of managing my bookmarks.&#xA;The first is reserved for my essential/active/frequent (or whatever one might&#xA;call these) bookmarks and the second is used for&amp;ndash;well, you may guess.&#xA;Lets start with the first class.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-i-use-my-essential-bookmarks&#34;&gt;How I use my essential bookmarks&lt;/h2&gt;&#xA;&lt;p&gt;This method is rather primitive but works exceptionally well. You just keep&#xA;your bookmarks (i.e. links) in a plain textfile. However, without the second&#xA;component, ingredient you could say, you might, as I expect, be&#xA;rather distrustful regarding the benefits of such a method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I am using RSS and you should too</title>
+      <link>http://localhost:1313/blog/rss/</link>
+      <pubDate>Thu, 16 Jan 2025 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/rss/</guid>
+      <description>&lt;p&gt;What a title huh? I figured that is how one starts a blog post. Get the readers attention etc. etc.&lt;/p&gt;&#xA;&lt;p&gt;I am assuming you have no clue what RSS is. If you do; &lt;a href=&#34;https://fynnfr.org/blog/index.xml&#34;&gt;here is my feed!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you do not, here is a small intro:&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-rss-really-simple-syndication&#34;&gt;What is RSS (Really Simple Syndication)?&lt;/h2&gt;&#xA;&lt;p&gt;RSS (Really Simple Syndication) is a user-controlled way to follow online content, fundamentally different from modern social media platforms and email newsletters. Think of it as a decentralized news feed without ads, algorithmic manipulation, or corporate control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A month without wifi</title>
+      <link>http://localhost:1313/blog/nowifi/</link>
+      <pubDate>Wed, 04 Dec 2024 20:23:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/nowifi/</guid>
+      <description>&lt;p&gt;What I dreaded as a teenager has become my daily life for the past month.&lt;/p&gt;&#xA;&lt;p&gt;What started as a broken wifi router has become the longest period since I can&#xA;remember without access to wifi (at least @home). As I regulary want to decrese my&#xA;time spent on the internet this might be what I needed to finally reach a new&#xA;milestone&amp;ndash;is what I thought in the beginning. However, I can now, unfortunatly say that the opposite has occured. I can still use my regular phone data to use&#xA;the internet and moreover, I have to start a hotspot when using my laptop&#xA;(incl. work laptop) to study for university for example. Furthermore, I can not&#xA;use my desktop pc at all since it has no WLAN adapter built in, I can only access the&#xA;web using LAN which never posed a problem&amp;ndash;until now; hard to use LAN from a&#xA;hotspot. The only place I used some social media was on this stationary pc. My&#xA;habit was physically split from the rest of my daily routine which worked quite&#xA;well. Without access to it the need for some kind of information/news/something&#xA;(I can not even download my music like I was used to and have subsequently now&#xA;subscribed to my first digital subscription service in quite a long time (apple&#xA;music) which also sucks) built up and finally found its relief in reddit on my&#xA;phones browser&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>td</title>
+      <link>http://localhost:1313/blog/td/</link>
+      <pubDate>Sun, 13 Oct 2024 14:28:59 +0200</pubDate>
+      <guid>http://localhost:1313/blog/td/</guid>
+      <description>&lt;h2 id=&#34;edit-26022025&#34;&gt;Edit: 26.02.2025:&lt;/h2&gt;&#xA;&lt;p&gt;I have recently discovered &lt;a href=&#34;https://github.com/lfos/calcurse&#34;&gt;calcurse&lt;/a&gt;, a&#xA;&lt;em&gt;text-based calendar and scheduling application&lt;/em&gt;, while searching for—you may&#xA;have guessed it—a text-based calendar and scheduling application. The&#xA;application also includes a feature to track todos. Naturally, this interested&#xA;me, as it is also a TUI (Text User Interface). However, as you will see below,&#xA;one of the essential features I was looking for in a todo application was the&#xA;ability to quickly insert tasks/todos directly from the terminal. Given that&#xA;calcurse offers a plethora of features, I was optimistic that this&#xA;functionality would be included. Unfortunately, I was wrong&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. What a bummer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 3</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;&#xA;&lt;p&gt;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;p&gt;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
