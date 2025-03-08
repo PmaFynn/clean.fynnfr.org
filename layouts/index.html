@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ .Site.Title }}</title>
+</head>
+
+<body>
+	<h1>{{ .Site.Title }}</h1>
+	{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+	<img src="{{ .Site.Params.index.imageUrl }}" height="150" width="150" draggable="false">
+	<h2>{{ .Site.Params.index.title }}</h2>
+	<p>{{ .Site.Params.index.subtitle }}</p>
+
+	<h3>Socials</h3>
+	<nav>
+		<ul>
+			{{ range sort .Site.Params.social }}
+			<li>
+				<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</nav>
+</body>
+
+</html>
