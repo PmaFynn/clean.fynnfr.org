@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miscs on Fynn webpage</title>
+    <link>http://localhost:1313/misc/</link>
+    <description>Recent content in Miscs on Fynn webpage</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Sep 2024 10:20:05 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quotes I encountered and liked</title>
+      <link>http://localhost:1313/misc/quotes/</link>
+      <pubDate>Sat, 21 Sep 2024 10:20:05 +0200</pubDate>
+      <guid>http://localhost:1313/misc/quotes/</guid>
+      <description>&lt;h2 id=&#34;top&#34;&gt;Top&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Der Begriff des Fortschritts ist in der Idee der Katastrophe zu fundieren. Daß es »so weiter« geht, ist die Katastrophe. Sie ist nicht das jeweils Bevorstehende sondern das jeweils Gegebene. Strindbergs Gedanke: die Hölle ist nichts, was uns bevorstünde&amp;ndash;sondern dieses Leben hier.&amp;rdquo;, &lt;em&gt;Walter Benjamin, Das Passagen-Werk&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It was the day of my death&amp;ndash;I wish it was the day of my death.&amp;rdquo;, &lt;em&gt;James Baldwin, Giovanni&amp;rsquo;s Room&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Whosoever would untertake some atrocious enterprise should act as if it were already accomplished, should impose upon himself a future as irrevocable as the past.&amp;rdquo;, &lt;em&gt;Jorge Luis Borges, Garden ofthe Forking Paths&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
