@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <style>
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-size: 18px;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+    }
+
+    p {
+      margin-bottom: 50px;
+    }
+
+
+    a {
+      display: inline-block;
+      border-bottom: 2px solid #f26522;
+    }
+
+    .star {
+      width: 25%;
+      height: 100%;
+      border: 0;
+    }
+
+    .hello {
+      font-family: sans-serif;
+      margin-bottom: 50px;
+      font-size: 90px;
+      display: block;
+      font-weight: bold;
+      color: #808080;
+    }
+
+    .info {
+      padding: 5%;
+      width: 50%;
+      border-left: 1px solid #000;
+      border-right: 1px solid #000;
+      text-align: left;
+    }
+
+    .header {
+      padding: 5%;
+      width: 25%;
+      /* Pushes the header to the right */
+    }
+
+
+    .image {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      vertical-align: middle;
+      transform: scaleX(-1);
+    }
+
+
+    @media (max-width: 1000px) {
+      .star {
+        display: none;
+      }
+
+      .info {
+        width: unset;
+        margin: auto;
+        border: 0;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .hello {
+        font-size: 300%;
+      }
+
+      .image {
+        width: 75px;
+      }
+    }
+  </style>
+  <!--<header>-->
+  <!--  {{ partial "header.html" . }}-->
+  <!--</header>-->
+  <main>
+    <iframe class="star" src="/star.html"></iframe>
+    <div class="info">
+      {{ block "main" . }}{{ end }}
+    </div>
+    <div class="header">
+      {{ partial "header.html" . }}
+    </div>
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+
+</html>

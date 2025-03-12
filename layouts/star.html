@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html class=" lxmxmazfgo idc0_343">
+
+<head>
+	<style>
+		html,
+		body {
+			margin: 0px;
+			padding: 0px;
+			font-size: 15px;
+			font-family: sans-serif;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.clearfix {
+			clear: both;
+			display: block;
+		}
+
+		a {
+			color: #000000;
+		}
+
+		#logo_wrapper {
+			width: 100vmin;
+			height: 100vmin;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			-moz-transform: translateX(-50%) translateY(-50%);
+			-o-transform: translateX(-50%) translateY(-50%);
+			-webkit-transform: translateX(-50%) translateY(-50%);
+		}
+
+		#logo {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			bottom: 0px;
+			right: 0px;
+			transform: rotate(-10deg);
+			-moz-transform: rotate(-10deg);
+			-webkit-transform: rotate(-10deg);
+			-o-transform: rotate(-10deg);
+			transition: all 500ms cubic-bezier(0.720, -0.310, 0.290, 1);
+		}
+
+		#logo #ball_center {
+			width: 20.7%;
+			z-index: 3;
+		}
+
+		.ball {
+			width: 6%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background: #000;
+			z-index: 2;
+			-moz-transform: translateX(-50%) translateY(-50%);
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			-o-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%);
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-o-border-radius: 50%;
+			border-radius: 50%;
+			-webkit-transition: all 500ms cubic-bezier(0.720, 0, 0.290, 1);
+			-webkit-transition: all 500ms cubic-bezier(0.720, -0.310, 0.290, 1);
+			-moz-transition: all 500ms cubic-bezier(0.720, -0.310, 0.290, 1);
+			-o-transition: all 500ms cubic-bezier(0.720, -0.310, 0.290, 1);
+			transition: all 500ms cubic-bezier(0.720, -0.310, 0.290, 1);
+		}
+
+		.ball:after {
+			padding-top: 100%;
+			display: block;
+			content: '';
+		}
+
+		svg,
+		.ball {
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+
+		#ball0.out {
+			transform: translateX(-534%) translateY(430%);
+			-moz-transform: translateX(-534%) translateY(430%);
+			-webkit-transform: translateX(-534%) translateY(430%);
+			-o-transform: translateX(-534%) translateY(430%);
+		}
+
+		#ball1.out {
+			transform: translateX(-720%) translateY(-43%);
+			-moz-transform: translateX(-720%) translateY(-43%);
+			-webkit-transform: translateX(-720%) translateY(-43%);
+			-o-transform: translateX(-720%) translateY(-43%);
+		}
+
+		#ball2.out {
+			transform: translateX(-534%) translateY(-529%);
+			-moz-transform: translateX(-534%) translateY(-529%);
+			-webkit-transform: translateX(-534%) translateY(-529%);
+			-o-transform: translateX(-534%) translateY(-529%);
+		}
+
+		#ball3.out {
+			transform: translateX(-50%) translateY(-710%);
+			-moz-transform: translateX(-50%) translateY(-710%);
+			-webkit-transform: translateX(-50%) translateY(-710%);
+			-o-transform: translateX(-50%) translateY(-710%);
+		}
+
+		#ball4.out {
+			transform: translateX(430%) translateY(-529%);
+			-moz-transform: translateX(430%) translateY(-529%);
+			-webkit-transform: translateX(430%) translateY(-529%);
+			-o-transform: translateX(430%) translateY(-529%);
+		}
+
+		#ball5.out {
+			transform: translateX(615%) translateY(-50%);
+			-moz-transform: translateX(615%) translateY(-50%);
+			-webkit-transform: translateX(615%) translateY(-50%);
+			-o-transform: translateX(615%) translateY(-50%);
+		}
+
+		#ball6.out {
+			transform: translateX(430%) translateY(430%);
+			-moz-transform: translateX(430%) translateY(430%);
+			-webkit-transform: translateX(430%) translateY(430%);
+			-o-transform: translateX(430%) translateY(430%);
+		}
+
+		#ball7.out {
+			transform: translateX(-50%) translateY(615%);
+			-moz-transform: translateX(-50%) translateY(615%);
+			-webkit-transform: translateX(-50%) translateY(615%);
+			-o-transform: translateX(-50%) translateY(615%);
+		}
+
+		.arm {
+			width: 3.5vmin;
+			height: 22.129vmin;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.arm svg>path {
+			fill: #000;
+			transition: all 500ms;
+		}
+
+		#arm0 {
+			top: 55%;
+			left: 32%;
+			transform: rotateZ(225deg);
+			-moz-transform: rotateZ(225deg);
+			-webkit-transform: rotateZ(225deg);
+			-o-transform: rotateZ(225deg);
+		}
+
+		#arm1 {
+			top: 39.4%;
+			left: 25.5%;
+			transform: rotateZ(270deg);
+			-moz-transform: rotateZ(270deg);
+			-webkit-transform: rotateZ(270deg);
+			-o-transform: rotateZ(270deg);
+		}
+
+		#arm2 {
+			top: 23.3%;
+			left: 32%;
+			transform: rotateZ(315deg);
+			-moz-transform: rotateZ(315deg);
+			-webkit-transform: rotateZ(315deg);
+			-o-transform: rotateZ(315deg);
+		}
+
+		#arm3 {
+			top: 16%;
+			left: 48.25%;
+			transform: rotateZ(0deg);
+			-moz-transform: rotateZ(0deg);
+			-webkit-transform: rotateZ(0deg);
+			-o-transform: rotateZ(0deg);
+		}
+
+		#arm4 {
+			top: 23.3%;
+			left: 64.4%;
+			transform: rotateZ(45deg);
+			-moz-transform: rotateZ(45deg);
+			-webkit-transform: rotateZ(45deg);
+			-o-transform: rotateZ(45deg);
+		}
+
+		#arm5 {
+			top: 39.4%;
+			left: 71%;
+			transform: rotateZ(90deg);
+			-moz-transform: rotateZ(90deg);
+			-webkit-transform: rotateZ(90deg);
+			-o-transform: rotateZ(90deg);
+		}
+
+		#arm6 {
+			top: 55%;
+			left: 64.4%;
+			transform: rotateZ(135deg);
+			-moz-transform: rotateZ(135deg);
+			-webkit-transform: rotateZ(135deg);
+			-o-transform: rotateZ(135deg);
+		}
+
+		#arm7 {
+			top: 62%;
+			left: 48.25%;
+			transform: rotateZ(180deg);
+			-moz-transform: rotateZ(180deg);
+			-webkit-transform: rotateZ(180deg);
+			-o-transform: rotateZ(180deg);
+		}
+
+		#arm0.out>path,
+		#logo_wrapper #ball0.out {
+			background: #3c6595;
+			fill: #3c6595;
+		}
+
+		#arm1.out>path,
+		#logo_wrapper #ball1.out {
+			background: #138818;
+			fill: #138818;
+		}
+
+		#arm2.out>path,
+		#logo_wrapper #ball2.out {
+			background: #be1919;
+			fill: #be1919;
+		}
+
+		#arm3.out>path,
+		#logo_wrapper #ball3.out {
+			background: #c9df11;
+			fill: #c9df11;
+		}
+
+		#arm4.out>path,
+		#logo_wrapper #ball4.out {
+			background: #00cbd2;
+			fill: #00cbd2;
+		}
+
+		#arm5.out>path,
+		#logo_wrapper #ball5.out {
+			background: #e8b006;
+			fill: #e8b006;
+		}
+
+		#arm6.out>path,
+		#logo_wrapper #ball6.out {
+			background: #e806e5;
+			fill: #e806e5;
+		}
+
+		#arm7.out>path,
+		#logo_wrapper #ball7.out {
+			background: #7D0A0A;
+			fill: #7D0A0A;
+		}
+
+		div {}
+	</style>
+
+
+</head>
+
+<body>
+	<div id="logo_wrapper">
+		<div id="logo" style="transform: rotate(147.868deg);">
+			<div id="ball_center" class="ball"></div>
+			<svg id="arm0" class="arm" data-project="music" version="1.1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62 392"
+				style="enable-background:new 0 0 62 392;" xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball0" class="ball" data-project="music"></div>
+			<svg id="arm1" class="arm out" data-project="movies" version="1.1"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+				y="0px" viewBox="0 0 62 392" style="enable-background:new 0 0 62 392;"
+				xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball1" class="ball out" data-project="movies"></div>
+			<svg id="arm2" class="arm" data-project="books" version="1.1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62 392"
+				style="enable-background:new 0 0 62 392;" xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball2" class="ball" data-project="books"></div>
+			<svg id="arm3" class="arm out" data-project="art" version="1.1"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+				y="0px" viewBox="0 0 62 392" style="enable-background:new 0 0 62 392;"
+				xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball3" class="ball out" data-project="art"></div>
+			<svg id="arm4" class="arm out" data-project="products" version="1.1"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+				y="0px" viewBox="0 0 62 392" style="enable-background:new 0 0 62 392;"
+				xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball4" class="ball out" data-project="products"></div>
+			<svg id="arm5" class="arm" data-project="team" version="1.1" xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62 392"
+				style="enable-background:new 0 0 62 392;" xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball5" class="ball" data-project="team"></div>
+			<svg id="arm6" class="arm" data-project="contact" version="1.1"
+				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+				y="0px" viewBox="0 0 62 392" style="enable-background:new 0 0 62 392;"
+				xml:space="preserve">
+				<path d="M31.1,0L0,361c0,17.1,13.9,31,31,31c17.1,0,31-13.9,31-31L31.1,0z"></path>
+			</svg>
+			<div id="ball6" class="ball" data-project="contact"></div>
+			<svg id="arm7" class="arm" data-project="contact" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 62 392" xml:space="preserve">
+				<path d="M31.1 0 0 361c0 17.1 13.9 31 31 31s31-13.9 31-31z" />
+			</svg>
+			<div id="ball7" class="ball" data-project="novalis"></div>
+		</div>
+	</div>
+
+	<script>
+
+		function rotate() {
+			logo = document.getElementById('logo');
+			var deg = Math.random() * 360;
+			logo.style.transform = `rotate(${deg}deg)`;
+		}
+
+		function toggle(i) {
+			document.querySelector(`#arm${i}`).classList.toggle('out');
+			document.querySelector(`#ball${i}`).classList.toggle('out');
+		}
+
+		function step() {
+			if (!running) return;
+			if (Math.random() < 0.05) rotate();
+			for (var i = 0; i < 8; i++) {
+				if (Math.random() < 0.1) toggle(i);
+			}
+		}
+
+		function stopple() {
+			running = !running;
+		}
+
+		running = 1;
+		inter = setInterval(step, 150);
+
+		logo.onclick = stopple;
+
+	</script>
+
+
+
+
+</body>
+
+</html>
