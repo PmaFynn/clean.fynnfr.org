@@ -1,7 +1,6 @@
 baseURL: "http://fynnfr.org/"
 languageCode: "en-us"
 title: "Fynn Friedrichs"
-theme: "clean"
 params:
   index:
     label: "ff"
