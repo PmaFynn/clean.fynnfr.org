@@ -7,6 +7,7 @@ params:
     title: Hi
     subtitle: "I'm Fynn. Welcome to my little corner of the internet!"
     imageUrl: "home/meButNice.png"
+  DateFormat: "January 2, 2006"
   social:
     - name: email
       url: "mailto:fynn@fynnfr.org"

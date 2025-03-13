@@ -1,19 +1,11 @@
-<!--<h1>{{ .Site.Title }}</h1>-->
-<!--<nav>-->
-<!--  <ul>-->
-<!--    {{/* Show "Home" only if the current page is NOT the homepage */}}-->
-<!--    {{ if ne .Page.RelPermalink "/" }}-->
-<!--    <li>-->
-<!--      <a href="/">Home</a>-->
-<!--    </li>-->
-<!--    {{ end }}-->
-<!---->
-<!--    {{/* Display other menu items */}}-->
-<!--    {{ range sort site.Menus.main "Weight" }}-->
-<!--    <li>-->
-<!--      <a href="{{ .URL }}">{{ .Name }}</a>-->
-<!--    </li>-->
-<!--    {{ end }}-->
-<!--  </ul>-->
-<!--</nav>-->
-<p> fsfsf </p>
+<div class="navi">
+  {{/* Show "Home" only if the current page is NOT the homepage */}}
+  {{ if ne .Page.RelPermalink "/" }}
+  <a href="/">Home</a><br>
+  {{ end }}
+
+  {{/* Display other menu items */}}
+  {{ range sort site.Menus.main "Weight" }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</div>
