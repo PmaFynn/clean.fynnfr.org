@@ -32,7 +32,7 @@
 
 		a {
 			display: inline-block;
-			border-bottom: 2px solid #f26522;
+			border-bottom: 2px solid #B0303E;
 		}
 
 		.star {
@@ -44,7 +44,7 @@
 		.hello {
 			font-family: sans-serif;
 			margin-bottom: 50px;
-			font-size: 90px;
+			font-size: 100px;
 			display: block;
 			font-weight: bold;
 			color: #808080;
@@ -77,11 +77,12 @@
 				margin: auto;
 				border: 0;
 			}
+
 		}
 
 		@media (max-width: 700px) {
 			.hello {
-				font-size: 300%;
+				font-size: 400%;
 			}
 
 			.image {
@@ -93,12 +94,12 @@
 	<iframe class="star" src="/star.html"></iframe>
 
 	<div class="info">
-		<div class="hello">Welc<img class="image" src="{{ .Site.Params.index.imageUrl }}">me!</div>
+		<div class="hello">Hell<img class="image" src="{{ .Site.Params.index.imageUrl }}">!</div>
 		<!--<p>I build <a href="https://www.gnod.com" target="_blank">Gnod</a> and <a href="https://www.productchart.com" target="_blank">Product Chart</a>.</p>-->
-		<p>Sometimes I <a href="/blog">write</a>, <br> sometimes I code, <br>sometimes I <a
-				href="/projects">write about my code</a>
+		<p>Sometimes I <a href="/blog">write</a>, <br> Sometimes I code, <br>Sometimes I <a
+				href="/tags/projects">write about my code</a>
 		</p>
-		<p>Feel free to <a href="contact">hit me up</a>.
+		<p><a href="contact.html">Reach out</a> anytime!
 		</p>
 	</div>
 </body>

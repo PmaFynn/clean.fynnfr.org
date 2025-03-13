@@ -28,8 +28,13 @@
 
     a {
       display: inline-block;
-      border-bottom: 2px solid #f26522;
+      border-bottom: 2px solid #B0303E;
     }
+
+    .RSS {
+      border-bottom: none;
+    }
+
 
     .star {
       width: 25%;
@@ -50,10 +55,20 @@
     .info {
       padding: 5%;
       width: 50%;
-      border-left: 1px solid #000;
-      border-right: 1px solid #000;
+      min-height: 100vh;
+      /*border-left: 1px solid #000;*/
+      /*border-right: 1px solid #000;*/
       text-align: left;
       flex-shrink: 0;
+      overflow-y: scroll;
+      /* Hide scrollbar */
+      scrollbar-width: none;
+      /* For Firefox */
+    }
+
+    .info::-webkit-scrollbar {
+      display: none;
+      /* For Chrome, Safari, Edge */
     }
 
     .header {
@@ -62,6 +77,11 @@
       flex-shrink: 1;
     }
 
+    .filler {
+      padding: 5%;
+      width: 25%;
+      flex-shrink: 1;
+    }
 
     .image {
       width: 150px;
@@ -86,6 +106,10 @@
         margin: auto;
         border: 0;
       }
+
+      .header {
+        width: 100%;
+      }
     }
 
     @media (max-width: 700px) {
@@ -107,7 +131,9 @@
   <div class="info">
     {{ block "main" . }}{{ end }}
   </div>
-  <iframe class="star" src="/star.html"></iframe>
+  <div class="filler">
+  </div>
+  <!--<iframe class="star" src="/star.html"></iframe>-->
   <!--<footer>-->
   <!--  {{ partial "footer.html" . }}-->
   <!--</footer>-->
