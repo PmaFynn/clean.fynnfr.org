@@ -1,12 +1,18 @@
+{{ define "main" }}
+<!--<div class="hello">{{ .Title }}</div>-->
+
+<!--TODO: Added socials here-->
 <div class="navi">
+  <h1>Socials</h1>
   {{/* Show "Home" only if the current page is NOT the homepage */}}
   {{ if ne .Page.RelPermalink "/" }}
-  <a href="/">Home</a>
+  <a href="/">Home</a><br>
   {{ end }}
 
   {{/* Display other menu items */}}
   {{ range sort site.Menus.main "Weight" }}
   <a href="{{ .URL }}">{{ .Name }}</a>
   {{ end }}
-  <a href="/contact.html">Contact</a>
 </div>
+
+{{ end }}
