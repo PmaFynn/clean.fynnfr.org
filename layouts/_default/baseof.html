@@ -9,39 +9,36 @@
   <style>
     html,
     body {
-      margin: 0px;
-      padding: 0px;
+      margin: 0;
+      padding: 0;
       font-size: 18px;
       height: 100vh;
-      widht: 100vw;
-      /*overflow: hidden;*/
+      widht: 100vw
     }
 
     body {
-      display: flex;
+      display: flex
     }
 
     p {
       margin-bottom: 50px;
-      text-align: justify;
+      text-align: justify
     }
-
 
     a {
       display: inline-block;
-      border-bottom: 2px solid #B0303E;
+      border-bottom: 2px solid #B0303E
     }
 
     .RSS {
-      border-bottom: none;
+      border-bottom: none
     }
-
 
     .star {
       width: 25%;
       height: 100%;
       border: 0;
-      flex-shrink: 0;
+      flex-shrink: 0
     }
 
     .hello {
@@ -49,39 +46,34 @@
       margin-bottom: 50px;
       font-size: 90px;
       display: block;
-      font-weight: bold;
-      color: #808080;
+      font-weight: 700;
+      color: gray
     }
 
     .info {
       padding: 5%;
       width: 50%;
       min-height: 100vh;
-      /*border-left: 1px solid #000;*/
-      /*border-right: 1px solid #000;*/
       text-align: left;
       flex-shrink: 0;
       overflow-y: scroll;
-      /* Hide scrollbar */
-      scrollbar-width: none;
-      /* For Firefox */
+      scrollbar-width: none
     }
 
     .info::-webkit-scrollbar {
-      display: none;
-      /* For Chrome, Safari, Edge */
+      display: none
     }
 
     .header {
       padding: 5%;
       width: 25%;
-      flex-shrink: 1;
+      flex-shrink: 1
     }
 
     .filler {
       padding: 5%;
       width: 25%;
-      flex-shrink: 1;
+      flex-shrink: 1
     }
 
     .image {
@@ -89,37 +81,36 @@
       border-radius: 50%;
       margin-bottom: 10px;
       vertical-align: middle;
-      transform: scaleX(-1);
+      transform: scaleX(-1)
     }
-
 
     @media (max-width: 1000px) {
       .star {
-        display: none;
+        display: none
       }
 
       body {
-        display: block;
+        display: block
       }
 
       .info {
         width: unset;
         margin: auto;
-        border: 0;
+        border: 0
       }
 
       .header {
-        width: 100%;
+        width: 100%
       }
     }
 
     @media (max-width: 700px) {
       .hello {
-        font-size: 300%;
+        font-size: 300%
       }
 
       .image {
-        width: 75px;
+        width: 75px
       }
     }
   </style>

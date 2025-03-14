@@ -7,19 +7,8 @@
 		body {
 			margin: 0px;
 			padding: 0px;
-			font-size: 15px;
-			font-family: sans-serif;
 			height: 100%;
 			overflow: hidden;
-		}
-
-		.clearfix {
-			clear: both;
-			display: block;
-		}
-
-		a {
-			color: #000000;
 		}
 
 		#logo_wrapper {
@@ -339,32 +328,33 @@
 
 	<script>
 
-		function rotate() {
-			logo = document.getElementById('logo');
-			var deg = Math.random() * 360;
-			logo.style.transform = `rotate(${deg}deg)`;
-		}
+		let running = true;
+		const logo = document.getElementById('logo');
+		const arms = Array.from({length: 8}, (_, i) => document.querySelector(`#arm${i}`));
+		const balls = Array.from({length: 8}, (_, i) => document.querySelector(`#ball${i}`));
 
-		function toggle(i) {
-			document.querySelector(`#arm${i}`).classList.toggle('out');
-			document.querySelector(`#ball${i}`).classList.toggle('out');
-		}
+		const rotate = () => {
+			logo.style.transform = `rotate(${Math.random() * 360}deg)`;
+		};
 
-		function step() {
+		const toggle = (i) => {
+			arms[i]?.classList.toggle('out');
+			balls[i]?.classList.toggle('out');
+		};
+
+		const step = () => {
 			if (!running) return;
-			if (Math.random() < 0.2) rotate();
-			for (var i = 0; i < 8; i++) {
+			if (Math.random() < 0.1) rotate();
+			arms.forEach((_, i) => {
 				if (Math.random() < 0.1) toggle(i);
-			}
-		}
+			});
+		};
 
-		function stopple() {
+		const stopple = () => {
 			running = !running;
-		}
+		};
 
-		running = 1;
-		inter = setInterval(step, 150);
-
+		let inter = setInterval(step, 150);
 		logo.onclick = stopple;
 
 	</script>
